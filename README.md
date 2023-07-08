@@ -1,12 +1,6 @@
-# Assignment 2 - Simple Nautilus\*
+# Simple Nautilus\*
 
-This assignment is worth **20%** of your overall grade for the course.
-
-**Due: Week 8, Thursday, September 22nd at 23:59:00, Sydney local time.**
-
-You are going to be writing an interactive application in Python that allows the user to send commands to a file management application and receive outputs. The application largely mocks common Unix commands such as `ls`, `cd`, `pwd`, and so on.
-
-You will need to implement and thoroughly test your solution.
+An interactive application in Python that allows the user to send commands to a file management application and receive outputs. The application largely mocks common Unix commands such as `ls`, `cd`, `pwd`, and so on.
 
 On the high level, the application is capable of:
 
@@ -18,19 +12,7 @@ On the high level, the application is capable of:
 
 In Linux system, you can interact with the Terminal prompt to navigate in the file system using `cd`, to perform actions to create, move, delete and copy files using `touch` `mv` `rm` `cp`, to alter the ownership and permission of files by `chown` `chmod` and to add or remove users by `adduser` `deluser`.
 
-In this assignment, you need to write a Python program which provides an interactive prompt as if a Linux Terminal. Human users can interact with the Python program via standard input and standard output. One can input commands, and as a result, the program may print out feedback messages due to certain input.
-
 Note that the system is incapable of storing content but purely the file system structure. This is an intensional design and therefore the size of a file is not defined and is omitted in the system. Similarly, the concept of time and `group` is omitted intentional. Please see the whole specification for more details.
-
-The assignment has three tasks that you will need to implement and thoroughly test. You will be provided a test suite to assist in developing your solutions.
-
-The three tasks are:
-
-1. Implement a minimal Simple Nautilus.
-2. Implement a simplified Simple Nautilus.
-3. Implement a full Simple Nautilus.
-
-Please read the whole specification to better understand these tasks.
 
 \* Nautilus: [a file manager for GNOME](https://manpages.ubuntu.com/manpages/jammy/en/man1/nautilus.1.html).
 
