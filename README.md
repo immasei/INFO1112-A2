@@ -57,7 +57,7 @@ Like in Unix, this system supports user and permission management. However, the 
 
 To view the permissions for all files in a directory, use the `ls` command with the `-l` option.
 
-For example, if you enter:
+For example, if enter:
 
 ``` default
 ls -l
